@@ -27,6 +27,10 @@
     .navbar-custom .navbar-text {
       color: black;
     }
+    .card-img-top {
+      max-height: 20vh; /*not want to take all vertical space*/
+      object-fit: contain;/*show all image, autosized, no cut, in available space*/
+  }
   </style>
 
 </head>
@@ -79,7 +83,7 @@
         border-radius: 2em;
         text-align: center;
         box-shadow: 0 5px 10px rgba(0,0,0,.2);">
-        <img src="/static/pic1.jpg" class="card-img-top" alt="..." style="border-radius:10px;">
+        <img src="/static/pic1.png" class="card-img-top" alt="..." style="border-radius:10px;">
         <div class="card-body">
           <h6 class="card-title">Python basics</h6>
           <p class="card-text"><small>This is a longer card -in to additional content. This content is a little bit
@@ -105,7 +109,7 @@
         border-radius: 2em;
         text-align: center;
         box-shadow: 0 5px 10px rgba(0,0,0,.2);">
-        <img src="/static/pic2.png" class="card-img-top" alt="..." style="border-radius:10px;">
+        <img src="/static/pic3.png" class="card-img-top" alt="..." style="border-radius:10px;">
         <div class="card-body">
           <h6 class="card-title">Projects </h6>
           <p class="card-text"><small>This is a longer card -in to additional content. This content is a little bit
